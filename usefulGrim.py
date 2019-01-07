@@ -5,7 +5,7 @@ from discord.utils import get
 import asyncio
 
     #Token to log in to bot
-TOKEN = 'NDI1MzMxNDMzODA1MTg1MDI0.Dp1y8Q.EI17fEk53nP_4ThPBv8ibiIsqRA'
+TOKEN = '<insert token here>'
 
     #Setting up for commands
 prefix = '.'
