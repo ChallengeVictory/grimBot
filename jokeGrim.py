@@ -5,7 +5,7 @@ import asyncio
 import random
 
     #Token to log in to bot
-TOKEN = 'NDI1MzMxNDMzODA1MTg1MDI0.Dp1y8Q.EI17fEk53nP_4ThPBv8ibiIsqRA'
+TOKEN = '<insert token here>'
 
     #Setting up for commands
 prefix = '.'
@@ -39,13 +39,13 @@ async def on_message(message):
     splitlist = message.content.split(' ')
     for v in splitlist:
             if ( v == 'grim'):
-                if message.author.id == '212257792722075650':
+                if message.author.id == '<insert your id>':
                     await grim.send_message(message.channel, 'hi')
                 else:
                     string = insults[random.randint(0,len(insults)-1)]
                     await grim.send_message(message.channel, string)
                     
-    if message.author.id != '212257792722075650' and message.content.startswith(prefix):
+    if message.author.id != '<insert your id>' and message.content.startswith(prefix):
         string = insults[random.randint(0,len(insults)-1)]
         await grim.send_message(message.channel,string)
     else:
