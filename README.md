@@ -1,0 +1,2 @@
+# grimBot
+Custom Discord Bot
