@@ -5,7 +5,7 @@ import asyncio
 import random
 import pickle
 
-TOKEN = 'NDI1MzMxNDMzODA1MTg1MDI0.Dp1y8Q.EI17fEk53nP_4ThPBv8ibiIsqRA'
+TOKEN = '<shh you dont get my token>'
     #Setting up for commands
 prefix = '.'
 grim = commands.Bot(command_prefix = prefix)
@@ -45,7 +45,7 @@ chapter = 1
 @grim.event
 async def on_message(message):
     global chapter
-    if (message.author.id != 425331433805185024):
+    if (message.author.id != <hey no account id for you>):
         
         #To determine random message storage
         if(random.randint(1,100) == 69 and message.content.count('grim') == 0):
