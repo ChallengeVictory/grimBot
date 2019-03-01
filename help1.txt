@@ -1,0 +1,12 @@
+Grimoire - Chapter 1: Basic Spells
+Spells:
+
+.echo - have grim repeat what you say, and magically remove your own voice
+
+ .insult <word> - add an insult to grim
+
+.help - shows the spells for a certain chapter
+
+.chapter <1,2,3> - chooses a chapter to go to
+
+** Chapter 1 of grimoire is very... talkative **

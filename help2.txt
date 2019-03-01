@@ -1,0 +1,16 @@
+Grimoire - Chapter 2: Useful Spells
+Spells:
+
+ .test - meant to test if the book is working
+
+ .nap <time> - sleeps for a number of seconds
+
+ .solo <member> <role> - voice mutes all members of the role except for the single member
+
+ .unsolo <role> - voice unmutes all members of the role
+
+ .silence <minutes> <users> - silences the listed users for the listed amount of time. 
+
+ .help - used to show commands for a certain chapter
+
+ .chapter <1,2,3> - change to a different chapter
