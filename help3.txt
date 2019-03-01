@@ -1,0 +1,9 @@
+Grimoire - Chapter 3:Compendium
+Spells:
+ .count - gives a count of responses stored in the lexicon
+
+ .channel - adds or removes channel from random response taking
+
+ .help - shows spells for current chapter of the book
+
+ .chapter <1,2,3> - changes chapter of the book
